@@ -1,0 +1,92 @@
+*{
+    font-family: 'Radio Canad', 'sans-serif';
+}
+
+main{
+    background-color: #2eddbd;
+}
+
+#navComplete{
+    color: #666b6a;
+    box-shadow: 3px 3px 8px #666b6a;
+    background-color: #caf6ee;    
+}
+
+#navComplete a{
+    font-size: 1.5em;
+    color: black;
+}
+
+.aBlock{
+    color: #ffd6f5;
+    background-color: #666b6a;
+    box-shadow: 3px 3px 8px #666b6a;
+}
+
+#services{
+    background-color: #ff85e0;
+}
+
+
+
+
+
+
+#enrollbtn{
+    height: 100px !important;
+}
+
+
+
+/* I want the background color to gradiant from bottom to top from light turqoise to dark turquise for now 
+
+I also want the text to do the same thing but from grey to light pink */
+
+
+
+
+
+.cardBG{
+    /* This linear gradiant is bigger then the background */
+    background-image: linear-gradient(90deg, #caf6ee, #2eddbd) 
+    /* It is set to important to override the BootStrap setting */
+    !important;
+    /* The background is enlarged to be bigger here */
+    background-size: 300%;
+    /* set the position of the background to offset */
+    background-position: left;
+    /* and use transition to move it from left to right over .8s */
+    transition: background-position 1s;
+}
+    /* The background position is set to be on the right when hovered but transition slowly moves it to the right */
+.cardBG:hover{
+    background-position: right;
+}
+
+
+.cBtn{
+    color: #666b6a !important;
+    background-color: #ffd6f5 !important;
+    box-shadow: 3px 3px 3px 3px 8px #ff85e0;
+}
+
+
+
+.card a{
+    color: #666b6a;
+    text-decoration: none;
+    transition: color 1s;
+}
+.card a:hover{
+    color: #ffd6f5;
+}
+/* .cardBG{
+    background-color: #caf6ee !important;
+    transition: background-color .8s, box-shadow .8s;
+    box-shadow: 3px 3px 8px #8fb0aa;
+
+} */
+/* .cardBG:hover{
+    background-color: #2eddbd !important;
+    box-shadow: 3px 3px 8px #25b499;
+} */
